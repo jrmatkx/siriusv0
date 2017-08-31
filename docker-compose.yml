@@ -1,7 +1,7 @@
 version: '2'
 services:
   moodle:
-    image: jrma/moodle32php56v2
+    image: jrma/moodle32php56
     links:
       - moodle_db
     environment:
